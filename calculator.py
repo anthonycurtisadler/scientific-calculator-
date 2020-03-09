@@ -388,7 +388,6 @@ class Calculator:
                                  # If not variable = subject 
                               predicate = query
                               subject = ''
-                         value = self.calculate(predicate)
                          try:
                               value = self.calculate(predicate)
                          except:
